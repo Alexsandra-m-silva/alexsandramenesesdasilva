@@ -1,0 +1,79 @@
+<!-- CSS Custom file -->
+<link rel="stylesheet" href="/CM1040_EndOfTerm/style.css">
+<!-- Navigation Bar -->
+<div class="mb-5"> <!-- Spacer to avoid content being hidden under fixed navbar -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">{{pageTitle}}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">{{navTitle}}</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            {{#each navItems}}
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{link}}">{{text}}</a>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- End of Navigation Bar -->
+<!-- Cover -->
+<div class="mb-5">
+  <h1>Career development</h1>
+  <!-- partial:index.partial.html -->
+  <div class="container-scroll-down">
+    <a href="#topics" style="display: block;">
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+    </a>
+  </div>
+  <!-- partial -->
+</div>
+<!-- End of Cover -->
+<!-- Topics -->
+<div class="container-nav-topics" id="topics">
+  {{#each topics}}
+  <div><a href="#{{id}}">{{topicTitle}}</a></div>
+  {{/each}}
+</div>
+<!-- End of Topics -->
+<!-- Timeline API -->
+<!-- End of Timeline API-->
+<!-- Main Content Cards -->
+{{#each topics}}
+<div class="container-2-cards" id="{{id}}">
+  <div class="inner-text-card">
+    <h2>{{topicTitle}} </h2>
+    <p> {{description}}</p>
+  </div>
+  <div class="inner-text-card" style="align-items: center;">
+  {{#if {{isVideo}} }}
+    <video controls style=" width:80%; height:auto;">
+      <source src="{{image}}" type="video/mp4">
+    </video>
+  {{/if}}
+  {{#if {{isImage}} }}
+    <img src="{{image}}" alt="{{Alt}}" id="{{imageName}}" style=" width:80%; height:auto;"/> 
+  {{/if}}
+  </div>
+</div>
+{{/each}}
+<!-- End of Main Content Cards -->
+ <!-- Footer -->
+<footer>
+    <p style="color: white;">References used to write this page:</p>
+    {{#each footer}}
+    <p style="color: white;">{{Title}}</p>
+    {{/each}}
+</footer>

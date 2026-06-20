@@ -1,0 +1,38 @@
+{
+    "pageTitle": "Alexsandra Meneses da Silva - Home",
+    "topics": [
+        {
+            "topicTitle": "As we may think",
+            "id": "asWeMayThink",
+            "description":"About me",
+            "isVideo": false,
+            "isImage": true,
+            "image": "/CM1040_EndOfTerm/Images/AlexsandraMSilva.jpeg",
+            "Alt":""
+        },
+        {
+            "topicTitle": "Real artists deliver",
+            "id": "realArtistsDeliver",
+            "description":"About me",
+            "isVideo": true,
+            "isImage": false,
+            "image": "",
+            "Alt":""
+        },
+        {
+            "topicTitle": "Human-Computer Interaction",
+            "id": "humanComputerInteraction",
+            "description":"About me",
+            "isVideo": false,
+            "isImage": true,
+            "image": "",
+            "Alt":""
+        }
+    ],
+    "footer": [
+        {
+            "Title": "Social Media"
+        }
+    ]
+    
+}

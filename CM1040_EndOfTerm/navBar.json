@@ -1,0 +1,13 @@
+[
+    "navBar",
+    {
+        "navTitle": "Thinker. Creator. Innovator.",
+        "navItems": [
+            { "text": "Home", "link": "/CM1040_EndOfTerm/Home/index.html" },
+            { "text": "Career", "link": "/CM1040_EndOfTerm/Career/index.html" },
+            { "text": "Side Projects", "link": "/CM1040_EndOfTerm/SideProjects/index.html" },
+            { "text": "Lifelong Learning", "link": "/CM1040_EndOfTerm/Education/index.html" },
+            { "text": "Writings", "link": "/CM1040_EndOfTerm/Education/index.html" }
+        ]
+    }
+]
