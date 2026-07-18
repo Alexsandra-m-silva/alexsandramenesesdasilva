@@ -4,16 +4,16 @@
         {
             "topicTitle": "As we may think",
             "id": "asWeMayThink",
-            "description":"About me",
+            "description":"I am a technology consultant and developer building my career around the Microsoft ecosystem, with a focus on Dynamics 365 CRM and the Power Platform. Currently, I work as a Technical Consultant at Infoavan, delivering solutions that help organizations transform complex business processes into practical, scalable applications. <br> Beyond my professional role, I enjoy exploring startup ideas and developing side projects that combine technology, creativity, and entrepreneurship. <br>I am driven by curiosity and continuous learning, always seeking projects that align with my values, technical expertise, and long-term aspirations.<br>I am particularly interested in sustainable innovation and collaborating with individuals and organizations that embrace change, think responsibly, and strive to create a lasting positive impact. <r> For me, technology is not only a tool for solving today's problems but also a medium for imagining better possibilities for tomorrow.",
             "isVideo": false,
             "isImage": true,
-            "image": "/CM1040_EndOfTerm/Images/AlexsandraMSilva.jpeg",
+            "image": "/docs/Images/AlexsandraMSilva.jpeg",
             "Alt":""
         },
         {
             "topicTitle": "Real artists deliver",
             "id": "realArtistsDeliver",
-            "description":"About me",
+            "description":"Ideas only become meaningful when they are delivered. <br> I believe that technical excellence is not just about writing good code—it's about understanding the problem, collaborating with people, and consistently delivering projects that users can trust. <br> My work has reached organizations across Brazil, the United States, Europe, and global enterprises, including: <br> Brazil: Imagem Geosistemas, Sevengel, Sinaf, Falcão Bauer, Skymail, CDHU, Neogrid, PRF (Federal Highway Police), Hospital Israelita Albert Einstein, Grupo Salmeron, Royal De Heus, Dufrio, Suncoke Energy, Sakata Seed Sudamérica, DUFRY do Brasil, Tintas Luztol, Johnson Controls, LongPing High-Tech, SOLVI Soluções para a Vida, Eurofarma, Zoetis Brasil, and Construtora Tenda. <br> United States: Larios Consulting Services and Kumo Partners. <br> Europe: EU-OSHA (European Agency for Safety and Health at Work). <br>  Global: IBM and IWG.",
             "isVideo": true,
             "isImage": false,
             "image": "",
@@ -22,7 +22,7 @@
         {
             "topicTitle": "Human-Computer Interaction",
             "id": "humanComputerInteraction",
-            "description":"About me",
+            "description":"Every project has reinforced the importance of understanding users, questioning assumptions, and designing solutions that are both functional and intuitive. Each project, conversation, and challenge offers an opportunity to rethink previous ideas and develop a broader perspective.<br> My BSc in Computer Science at the University of London has played an important role in this journey. Beyond strengthening my technical foundation, it has encouraged me to approach computing from an academic perspective, exploring topics such as human-computer interaction, software engineering and the social impact of technology. This ongoing education complements my professional experience, helping me connect theory with practice and remain curious about the evolving relationship between humans and computers.",
             "isVideo": false,
             "isImage": true,
             "image": "",

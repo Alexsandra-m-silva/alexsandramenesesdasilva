@@ -66,7 +66,7 @@ class TemplateEngine_renderData {
                 navItems: [] //  filled from navBar.json
             };
             // Load Page Title from data.json
-            fetch('/CM1040_EndOfTerm/Career/data.json')
+            fetch('/docs/Career/data.json')
             .then(response => response.json())
             .then(pageData => {
                 data.pageTitle = pageData.pageTitle;
@@ -75,7 +75,7 @@ class TemplateEngine_renderData {
             });
             // Load topics content from data.json
             // Load nav items from JSON file
-            fetch('/CM1040_EndOfTerm/navBar.json')
+            fetch('/docs/navBar.json')
             .then(response => response.json())
             .then(navData => {
             // navData[1] contains the object with navItems

@@ -3,11 +3,11 @@
     {
         "navTitle": "Thinker. Creator. Innovator.",
         "navItems": [
-            { "text": "Home", "link": "/CM1040_EndOfTerm/Home/index.html" },
-            { "text": "Career", "link": "/CM1040_EndOfTerm/Career/index.html" },
-            { "text": "Side Projects", "link": "/CM1040_EndOfTerm/SideProjects/index.html" },
-            { "text": "Lifelong Learning", "link": "/CM1040_EndOfTerm/Education/index.html" },
-            { "text": "Writings", "link": "/CM1040_EndOfTerm/Education/index.html" }
+            { "text": "Home", "link": "/docs/Home/index.html" },
+            { "text": "Career", "link": "/docs/Career/index.html" },
+            { "text": "Side Projects", "link": "/docs/SideProjects/index.html" },
+            { "text": "Lifelong Learning", "link": "/docs/Education/index.html" },
+            { "text": "Writings", "link": "/docs/Education/index.html" }
         ]
     }
 ]
