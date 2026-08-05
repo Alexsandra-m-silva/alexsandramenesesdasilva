@@ -2,27 +2,54 @@
     "pageTitle": "Alexsandra Meneses da Silva - Career",
     "topics": [
         {
-            "topicTitle": "ENQUIRE",
+            "topicTitle": "Infoavan",
             "id": "enquire",
-            "description": "At the beginning of the 1990s, a new method of posting and finding content emerged, rendering packaged online services obsolete and realizing the utopian dreams of Bush, Licklider, and Engelbart. The World Wide Web was invented by Tim Berners-Lee, building on a project called Enquire, an early hypertext system that connected information through links. <br>By the end of 1990, he had already created a set of tools that brought his network to life: a Hypertext Transfer Protocol (HTTP) to allow hypertext to be exchanged online, a Hypertext Markup Language (HTML) to create pages, a rudimentary browser to serve as application software that retrieved and displayed information, and server software that could respond to network requests.<br>Berners-Lee insisted that the web protocols be made freely available, resulting in one of the greatest free and open-source projects in history. This decision led to the creation of the first web server in the United States, hosted at SLAC (Stanford Linear Accelerator Center): http://slacvm.slac.stanford.edu",
+            "description": "At the beginning of the 1990s,",
             "isVideo": false,
             "isImage": true,
             "image": "/docs/Images/TimBernersLee.jpg",
             "Alt":"A picture of Tim Berners-Lee"
         },
         {
-            "topicTitle": "The streets",
+            "topicTitle": "Pentare",
             "id": "justinHall",
-            "description": "The street finds its own uses for things. Driven by the growth of blogs and wikis, a revitalized Web 2.0 began to allow users to collaborate, interact, form communities, and generate their own content.<br>Justin Hall was the first person to use the web in an extremely personal way. Justin’s Links from the Underground became the pioneer of a proliferation of directories such as Yahoo and, later, Lycos and Excite, which began to flourish later on. Hall created something that would prove to be even more significant: a web log, or online diary, of his personal activities, random thoughts, deep reflections, and intimate encounters.Hall’s web log featured poignant poems about his father’s suicide, thoughts on his various sexual desires, photos of his penis, provocative yet tender stories about his stepfather, and other outpourings that constantly crossed back and forth over the boundary of 'Too Much Information'. In short, he became the mischievous founding figure of blogs.<br>Every form of content brought engagement to different people. Justin posted a poem about his father’s passing and received a virtual support group. Readers sent their own letters, and Hall published them. Sharing led to connections, and the blog became a social network.<br>The phenomenon spread, and by 2014 there would be 847 million blogs worldwide.<br>It was a social phenomenon, a new opportunity for individuals who had previously spent their nights passively consuming whatever was served to them on the tv screen.",
+            "description": "",
             "isVideo": true,
             "isImage": false,
             "image": "/docs/Images/justinHallOvershare8.mp4",
             "Alt":"Video of episode 8 of the series 'Overshare' by Justin Hall"
         },
         {
-            "topicTitle": "wiki wiki",
+            "topicTitle": "Nearsure (Tero)",
             "id": "wikipedia",
-            "description": "The term “wiki wiki”, meaning quick in Hawaiian, was introduced by Ward Cunningham, who created the first wiki in 1995 as a platform for fast, collaborative knowledge sharing. Early wikis used the CamelCase pattern, where words were joined together with capital letters (like WikiWikiWeb) to form links between pages. While Hall’s blog showed how the web could be intimate and personal, wikis demonstrated how it could be communal and encyclopedic.<br>Jimmy Wales played a key role in transforming this concept into Wikipedia, co-founding the platform to create a freely accessible encyclopedia that anyone could edit.<br>One month after its launch, Wikipedia had a thousand articles, about seventy times more than Nupedia had after an entire year. By September 2001, eight months into its existence, it already had 10,000 articles. That month, during the September 11 attacks, Wikipedia demonstrated its agility and usefulness; contributors worked to create new entries on topics such as the World Trade Center and its architect. A year later, the total number of articles reached 40,000. By March 2003, the English-language edition had already reached 100,000 articles, with around five hundred active editors working almost every day. Wikipedia took the world a step forward toward the vision proposed by Vannevar Bush in his 1945 essay “As We May Think”, which predicted that new forms of encyclopedias will appear, already carrying a mesh of associative trails within them, ready to be inserted into the memex and there amplified.",
+            "description": "",
+            "isVideo": false,
+            "isImage": true,
+            "image": "/docs/Images/wikipedia.jpg",
+            "Alt":"A picture of the Wikipedia logo with its website in the background"
+        },
+        {
+            "topicTitle": "IBM",
+            "id": "wikipedia",
+            "description": "",
+            "isVideo": false,
+            "isImage": true,
+            "image": "/docs/Images/wikipedia.jpg",
+            "Alt":"A picture of the Wikipedia logo with its website in the background"
+        },
+        {
+            "topicTitle": "S4R Technology",
+            "id": "wikipedia",
+            "description": "",
+            "isVideo": false,
+            "isImage": true,
+            "image": "/docs/Images/wikipedia.jpg",
+            "Alt":"A picture of the Wikipedia logo with its website in the background"
+        },
+        {
+            "topicTitle": "PM-Partners",
+            "id": "wikipedia",
+            "description": "",
             "isVideo": false,
             "isImage": true,
             "image": "/docs/Images/wikipedia.jpg",
