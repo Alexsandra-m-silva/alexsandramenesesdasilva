@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= siteData.meta.title %></title>
+    <meta name="description" content="<%= siteData.meta.description %>" />
+    <link rel="stylesheet" href="./public/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="brand">Alexsandra</a>
+        <nav class="nav-wrap" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-shell">
+      <section class="hero-panel">
+        <div>
+          <div class="eyebrow">Technology Consultant</div>
+          <h1>
+            Thinker.<br />
+            <span>Creator.</span><br />
+            Innovator.
+          </h1>
+          <p class="lead">
+            <%= siteData.about.intro %>
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Let’s connect</a>
+            <a class="button secondary" href="#projects">See work</a>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <div class="portrait-box">place image</div>
+          <h3><%= siteData.profile.name %></h3>
+          <p><%= siteData.profile.role %></p>
+          <div class="meta-inline" style="margin-top: 14px;">
+            <span><%= siteData.profile.location %></span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="two-column section-space">
+        <div class="panel">
+          <h2>About</h2>
+          <p style="line-height: 1.9; color: var(--muted);">
+            <%= siteData.about.story %>
+          </p>
+        </div>
+
+        <div class="panel">
+          <h3>What guides my work</h3>
+          <ul class="highlight-stack">
+            <% siteData.about.values.forEach((value) => { %>
+              <li><%= value %></li>
+            <% }) %>
+          </ul>
+        </div>
+      </section>
+
+      <section id="experience" class="section-space">
+        <div class="panel">
+          <h2>Experience</h2>
+          <ul class="panel-list">
+            <% siteData.experience.forEach((item) => { %>
+              <li>
+                <strong><%= item.role %></strong>
+                <div class="company-meta"><%= item.company %></div>
+                <div class="meta-inline">
+                  <span><%= item.period %></span>
+                </div>
+                <p style="margin-top: 0.8rem; color: var(--muted); line-height: 1.7;">
+                  <%= item.description %>
+                </p>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section-space">
+        <div class="panel">
+          <h2>Capabilities</h2>
+          <div class="skill-tags">
+            <% siteData.skills.forEach((skill) => { %>
+              <span><%= skill %></span>
+            <% }) %>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-space">
+        <div class="panel">
+          <h2>Selected projects</h2>
+          <div class="project-grid">
+            <% siteData.projects.forEach((project) => { %>
+              <article class="project-card">
+                <div class="type"><%= project.type %></div>
+                <h4><%= project.name %></h4>
+                <p><%= project.description %></p>
+              </article>
+            <% }) %>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-space">
+        <div class="panel">
+          <h2>Contact</h2>
+          <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1rem;">
+            <%= siteData.contact.label %>
+          </p>
+          <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1.2rem;">
+            <%= siteData.contact.cta %>
+          </p>
+          <div class="hero-actions">
+            <% siteData.socials.forEach((social) => { %>
+              <a class="button secondary" href="<%= social.url %>" target="_blank" rel="noreferrer"><%= social.name %></a>
+            <% }) %>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© <%= new Date().getFullYear() %> <%= siteData.profile.name %></div>
+        <div class="footer-links">
+          <% siteData.socials.forEach((social) => { %>
+            <a href="<%= social.url %>" target="_blank" rel="noreferrer"><%= social.name %></a>
+          <% }) %>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

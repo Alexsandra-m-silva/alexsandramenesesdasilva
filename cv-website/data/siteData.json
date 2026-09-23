@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "Alexsandra Meneses da Silva | Technology Consultant",
+    "description": "Technology consultant, builder, and product-minded innovator focused on Microsoft ecosystem solutions and human-centered digital transformation."
+  },
+  "profile": {
+    "name": "Alexsandra Meneses da Silva",
+    "role": "Technology Consultant • Product Thinker • Microsoft Ecosystem Builder",
+    "tagline": "Designing human-centered solutions with technology, strategy, and curiosity.",
+    "location": "Brazil • Working globally",
+    "email": "alexsandra@example.com",
+    "linkedin": "https://www.linkedin.com/in/alexsandramenesesdasilva/",
+    "github": "https://github.com/yourusername",
+    "portfolio": "https://yourportfolio.example.com"
+  },
+  "about": {
+    "intro": "I am a technology consultant and developer building my career around the Microsoft ecosystem, with a focus on Dynamics 365 CRM and the Power Platform. I enjoy transforming complex business needs into practical, elegant digital experiences that help people work smarter.",
+    "story": "Beyond my professional role, I enjoy exploring startup ideas and side projects that combine technology, creativity, and entrepreneurship. I am driven by curiosity and continuous learning, always seeking projects that align with my values, technical expertise, and long-term aspirations.",
+    "values": [
+      "Human-centered design",
+      "Sustainable innovation",
+      "Business clarity",
+      "Continuous learning",
+      "Collaborative execution"
+    ]
+  },
+  "highlights": [
+    "Microsoft ecosystem specialist",
+    "Dynamics 365 & Power Platform expert",
+    "Systems thinking and process transformation",
+    "Consulting across Brazil, the US, Europe, and global enterprises"
+  ],
+  "experience": [
+    {
+      "company": "Infoavan",
+      "role": "Technical Consultant",
+      "period": "Current",
+      "description": "Delivering technical consulting and solution design for organizations looking to transform business processes into scalable digital workflows and Microsoft-based solutions."
+    },
+    {
+      "company": "IBM",
+      "role": "Consulting and Digital Solutions",
+      "period": "Previous",
+      "description": "Worked on enterprise-level initiatives that required technology alignment, stakeholder communication, and practical implementation across complex environments."
+    },
+    {
+      "company": "Nearsure / Tero",
+      "role": "Product and Technology Contributions",
+      "period": "Previous",
+      "description": "Contributed to projects where strategy, product thinking, and technical execution had to come together in fast-moving business contexts."
+    },
+    {
+      "company": "Various clients across Brazil and abroad",
+      "role": "Technology Consultant",
+      "period": "200+ projects / global experience",
+      "description": "Supported clients in industries including logistics, healthcare, public services, manufacturing, retail, and enterprise operations."
+    }
+  ],
+  "education": [
+    {
+      "title": "BSc in Computer Science",
+      "institution": "University of London",
+      "details": "Focused on software engineering, human-computer interaction, and the social impact of technology."
+    },
+    {
+      "title": "Lifelong learning mindset",
+      "institution": "Self-directed learning + professional practice",
+      "details": "Exploring product design, AI, UX, and sustainable technology to shape more meaningful digital solutions."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal innovation portfolio",
+      "type": "Side project",
+      "description": "Exploring ideas that reach across technology, entrepreneurship, and digital experimentation, with a focus on practical value and creative problem-solving."
+    },
+    {
+      "name": "Microsoft platform modernization",
+      "type": "Consulting",
+      "description": "Building workflow and application solutions that reduce friction, improve visibility, and simplify operational complexity for business teams."
+    },
+    {
+      "name": "Process-driven app development",
+      "type": "Applied systems work",
+      "description": "Designing digital tools that support better business decisions, stronger user adoption, and measurable operational transformation."
+    }
+  ],
+  "skills": [
+    "Dynamics 365 CRM",
+    "Power Platform",
+    "Microsoft ecosystem solutions",
+    "Business process analysis",
+    "Project consulting",
+    "Stakeholder communication",
+    "UX thinking",
+    "Product-minded problem solving",
+    "Creative prototyping",
+    "Technical storytelling"
+  ],
+  "contact": {
+    "label": "Let’s build something useful and meaningful.",
+    "cta": "Reach out to discuss technology, consulting, consulting strategy, or collaboration opportunities."
+  },
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/alexsandramenesesdasilva/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yourusername"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://yourportfolio.example.com"
+    }
+  ],
+  "placeholder": {
+    "portrait": "place image",
+    "hobby": "place image",
+    "workspace": "place image"
+  }
+}
