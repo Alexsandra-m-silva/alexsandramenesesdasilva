@@ -1,20 +1,20 @@
 {
   "meta": {
     "title": "Alexsandra Meneses da Silva | Technology Consultant",
-    "description": "Developer and Consultant focused on Microsoft Cloud Technologies, with a global perspective. My work has reached organizations across Brazil, China, Uruguay, the United States, Europe and global enterprises. I am currently a Fellow at Goldsmiths, University of London. Quick to build deep and broad knowledge, with an adaptable, diverse skillset that has driven success and failures in multiple operating environments."
+    "description": "Developer and Consultant focused on Microsoft Cloud Technologies, with a global perspective. My work has reached organizations across Brazil, China, Uruguay, the United States, Europe and global enterprises. I am currently a fellow student at Goldsmiths, University of London. Quick to build deep and broad knowledge, with an adaptable, diverse skillset that has driven success and failures in multiple operating environments."
   },
   "profile": {
     "name": "Alexsandra Meneses da Silva",
-    "role": "Technology Consultant • Product Thinker • Microsoft Ecosystem Builder",
+    "role": "Technology Consultant •  Microsoft Ecosystem Builder",
     "tagline": "Designing human-centered solutions with technology, strategy and curiosity.",
     "location": "Brazil • Working globally",
     "email": "amds4@student.london.ac.uk",
     "linkedin": "https://www.linkedin.com/in/alexsandra-m-silva/",
-    "github": "https://github.com/Alexsandra-m-silva",
-    "portfolio": "https://yourportfolio.example.com"
+    "github": "https://github.com/Alexsandra-m-silva?tab=repositories",
+    "portfolio": "#"
   },
   "about": {
-    "intro": "Developer and Consultant focused on Microsoft Cloud Technologies, with a global perspective. My work has reached organizations across Brazil, China, Uruguay, the United States, Europe and global enterprises. I am currently a Fellow at Goldsmiths, University of London. Quick to build deep and broad knowledge, with an adaptable, diverse skillset that has driven success and failures in multiple operating environments.",
+    "intro": "Developer and Consultant focused on Microsoft Cloud Technologies, with a global perspective. My work has reached organizations across Brazil, China, Uruguay, the United States, Europe and global enterprises. I am currently a fellow student at Goldsmiths, University of London. Quick to build deep and broad knowledge, with an adaptable, diverse skillset that has driven success and failures in multiple operating environments.",
     "story": "Beyond my professional role, I enjoy exploring projects that combine technology, creativity and entrepreneurship. I am driven by curiosity and continuous learning, always seeking projects that align with my values, technical expertise and long-term aspirations.",
     "values": [
       "Human-centered design",
@@ -98,12 +98,12 @@
   "education": [
     {
       "title": "BSc. in Computer Science",
-      "institution": "Goldsmiths, University of London - In progress (part-time)",
+      "institution": "Goldsmiths, University of London - In progress (remote/part-time)",
       "details": "Focused on software engineering, human-computer interaction and the social impact of technology."
     },
     {
-      "title": "Contemporary Topics in business strategy",
-      "institution": "Pearson College London (2023)",
+      "title": "Contemporary topics in business strategy",
+      "institution": "Pearson College London (on-site/2023)",
       "details": "An intensive course focused on strategic management, innovation, sustainability, emerging technologies and public-private partnerships."
     }
   ],
@@ -125,16 +125,20 @@
     }
   ],
   "skills": [
-    "Dynamics 365 CRM",
-    "Power Platform",
-    "Microsoft ecosystem solutions",
+    "Microsoft Power Platform",
+    "Dynamics 365 & Dataverse",
+    "C# / .NET development",
+    "Web development",
+    "Azure and AI",
+    "Sharepoint and Microsoft 365",
     "Business process analysis",
     "Project consulting",
     "Stakeholder communication",
-    "UX thinking",
-    "Product-minded problem solving",
-    "Creative prototyping",
-    "Technical storytelling"
+    "Human-centered design",
+    "Sustainable innovation",
+    "Business clarity",
+    "Continuous learning",
+    "Collaborative execution"
   ],
   "contact": {
     "label": "Let’s build something useful and meaningful.",
@@ -147,11 +151,11 @@
     },
     {
       "name": "GitHub",
-      "url": "https://github.com/Alexsandra-m-silva"
+      "url": "https://github.com/Alexsandra-m-silva?tab=repositories"
     },
     {
       "name": "Portfolio",
-      "url": "https://yourportfolio.example.com"
+      "url": "#"
     }
   ],
   "placeholder": {
