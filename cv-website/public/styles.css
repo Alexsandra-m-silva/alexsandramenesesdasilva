@@ -229,8 +229,63 @@ a {
 .panel-list li {
   border: 1px solid rgba(17, 24, 39, 0.06);
   border-radius: 18px;
-  padding: 1rem;
+  padding: 0.5rem;
   background: rgba(255, 255, 255, 0.8);
+}
+
+.topic-list {
+  padding-left: 1.1rem;
+  color: var(--muted);
+  line-height: 1.7;
+  border: none;
+  background: transparent;
+}
+
+.topic-list li {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 0.2rem;
+  border: none;
+  background: transparent;
+}
+
+.expandable-block {
+  margin-top: 0.8rem;
+}
+
+.toggle-details {
+  appearance: none;
+  border: 1px solid rgba(124, 58, 237, 0.25);
+  background: rgba(124, 58, 237, 0.05);
+  color: var(--glow);
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-details:hover {
+  background: rgba(124, 58, 237, 0.1);
+}
+
+.hidden-details {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  transition: max-height 0.3s ease, opacity 0.2s ease, margin 0.2s ease;
+}
+
+.hidden-details.is-visible {
+  opacity: 1;
+}
+
+.hidden-details > * {
+  overflow: hidden;
 }
 
 .panel-list strong {
@@ -274,24 +329,56 @@ a {
   font-size: 0.85rem;
 }
 
-.highlight-stack {
+.education-list {
   display: grid;
-  gap: 0.8rem;
+  gap: 1.2rem;
   padding: 0;
   list-style: none;
   margin-top: 1rem;
 }
 
-.highlight-stack li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
+.education-item {
   color: var(--muted);
 }
 
-.highlight-stack li::before {
-  content: '✦';
+.education-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.education-bullet {
   color: var(--orange);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.education-copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.6rem;
+  line-height: 1.7;
+}
+
+.degree-title {
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.institution {
+  color: var(--orange);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.education-details {
+  flex-basis: 100%;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .section-space {
@@ -381,15 +468,15 @@ a {
   padding: 3rem 0;
 }
 
-.landing-overlay h2 {
-  font-size: clamp(3.2rem, 8vw, 7rem);
+.landing-overlay h3 {
+  font-size: clamp(3.2rem, 8vw, 3rem);
   margin: 0;
   line-height: 0.9;
   max-width: 700px;
   color: var(--text);
 }
 
-.landing-overlay h2 span {
+.landing-overlay h3 span {
   color: var(--orange);
 }
 

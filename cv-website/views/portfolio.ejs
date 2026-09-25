@@ -58,10 +58,23 @@
         </div>
 
         <div class="panel">
-          <h3>What guides my work</h3>
-          <ul class="highlight-stack">
-            <% siteData.about.values.forEach((value) => { %>
-              <li><%= value %></li>
+          <h3>Education</h3>
+          <ul class="education-list">
+            <% siteData.education.forEach((degree) => { %>
+              <li class="education-item">
+                <div class="education-line">
+                  <span class="education-bullet">✦</span>
+                  <div class="education-copy">
+                    <span class="degree-title"><%= degree.title %></span>
+                    <% if (degree.institution) { %>
+                      <span class="institution"><%= degree.institution %></span>
+                    <% } %>
+                    <% if (degree.details) { %>
+                      <span class="education-details"><%= degree.details %></span>
+                    <% } %>
+                  </div>
+                </div>
+              </li>
             <% }) %>
           </ul>
         </div>
@@ -78,9 +91,20 @@
                 <div class="meta-inline">
                   <span><%= item.period %></span>
                 </div>
-                <p style="margin-top: 0.8rem; color: var(--muted); line-height: 1.7;">
-                  <%= item.description %>
-                </p>
+
+                <% const detailItems = Array.isArray(item.description) ? item.description : (item.description ? [item.description] : []); %>
+                <% if (detailItems.length) { %>
+                  <div class="expandable-block">
+                    <button class="toggle-details" type="button" aria-expanded="false">
+                      Expand details
+                    </button>
+                    <ul class="topic-list hidden-details">
+                      <% detailItems.forEach((topic) => { %>
+                        <li><%= topic %></li>
+                      <% }) %>
+                    </ul>
+                  </div>
+                <% } %>
               </li>
             <% }) %>
           </ul>
@@ -100,7 +124,7 @@
 
       <section id="projects" class="section-space">
         <div class="panel">
-          <h2>Selected projects</h2>
+          <h2>Side projects</h2>
           <div class="project-grid">
             <% siteData.projects.forEach((project) => { %>
               <article class="project-card">
@@ -141,5 +165,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./public/portfolio-toggle.js"></script>
   </body>
 </html>

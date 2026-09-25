@@ -1,21 +1,21 @@
 {
   "meta": {
     "title": "Alexsandra Meneses da Silva | Technology Consultant",
-    "description": "Technology consultant, builder, and product-minded innovator focused on Microsoft ecosystem solutions and human-centered digital transformation."
+    "description": "Developer and Consultant focused on Microsoft Cloud Technologies, with a global perspective. My work has reached organizations across Brazil, China, Uruguay, the United States, Europe and global enterprises. I am currently a Fellow at Goldsmiths, University of London. Quick to build deep and broad knowledge, with an adaptable, diverse skillset that has driven success and failures in multiple operating environments."
   },
   "profile": {
     "name": "Alexsandra Meneses da Silva",
     "role": "Technology Consultant • Product Thinker • Microsoft Ecosystem Builder",
-    "tagline": "Designing human-centered solutions with technology, strategy, and curiosity.",
+    "tagline": "Designing human-centered solutions with technology, strategy and curiosity.",
     "location": "Brazil • Working globally",
-    "email": "alexsandra@example.com",
-    "linkedin": "https://www.linkedin.com/in/alexsandramenesesdasilva/",
-    "github": "https://github.com/yourusername",
+    "email": "amds4@student.london.ac.uk",
+    "linkedin": "https://www.linkedin.com/in/alexsandra-m-silva/",
+    "github": "https://github.com/Alexsandra-m-silva",
     "portfolio": "https://yourportfolio.example.com"
   },
   "about": {
-    "intro": "I am a technology consultant and developer building my career around the Microsoft ecosystem, with a focus on Dynamics 365 CRM and the Power Platform. I enjoy transforming complex business needs into practical, elegant digital experiences that help people work smarter.",
-    "story": "Beyond my professional role, I enjoy exploring startup ideas and side projects that combine technology, creativity, and entrepreneurship. I am driven by curiosity and continuous learning, always seeking projects that align with my values, technical expertise, and long-term aspirations.",
+    "intro": "Developer and Consultant focused on Microsoft Cloud Technologies, with a global perspective. My work has reached organizations across Brazil, China, Uruguay, the United States, Europe and global enterprises. I am currently a Fellow at Goldsmiths, University of London. Quick to build deep and broad knowledge, with an adaptable, diverse skillset that has driven success and failures in multiple operating environments.",
+    "story": "Beyond my professional role, I enjoy exploring projects that combine technology, creativity and entrepreneurship. I am driven by curiosity and continuous learning, always seeking projects that align with my values, technical expertise and long-term aspirations.",
     "values": [
       "Human-centered design",
       "Sustainable innovation",
@@ -25,64 +25,103 @@
     ]
   },
   "highlights": [
-    "Microsoft ecosystem specialist",
-    "Dynamics 365 & Power Platform expert",
-    "Systems thinking and process transformation",
-    "Consulting across Brazil, the US, Europe, and global enterprises"
+    "Microsoft Power Platform",
+    "Dynamics 365 & Dataverse",
+    "C# / .NET development",
+    "Web development",
+    "Azure and AI",
+    "Sharepoint and Microsoft 365"
   ],
   "experience": [
     {
-      "company": "Infoavan",
-      "role": "Technical Consultant",
-      "period": "Current",
-      "description": "Delivering technical consulting and solution design for organizations looking to transform business processes into scalable digital workflows and Microsoft-based solutions."
+      "company": "Infoavan, Madrid, Spain (remote)",
+      "role": "Senior Technical Consultant – Cloud Developer ",
+      "period": "Jan/2025 – Current",
+      "description": [
+        "Architected and delivered an end-to-end event order digitization solution for EU-OSHA using Power Apps, Power Automate, .NET upgrade, JavaScript and c# plugins, improving workflow automation, governance, financial visibility and stakeholder engagement.",
+        "Managed ALM and production deployments for large Power Platform solutions across multiple international projects, maintaining Azure DevOps pipelines with powershell, resolving solution dependencies and coordinating complex releases into production.",
+        "Developed AI-enabled solutions, including a Power Automate language translator using AI prompts.",
+        "AI-Assisted Development & Agentic Workflows: Use of Visual Studio Code agents to develop reusable skills and instructions with plugins focused on Power Platform while expanding expertise in Azure AI Foundry and the Microsoft AI stack."
+      ]
     },
     {
-      "company": "IBM",
-      "role": "Consulting and Digital Solutions",
-      "period": "Previous",
-      "description": "Worked on enterprise-level initiatives that required technology alignment, stakeholder communication, and practical implementation across complex environments."
+      "company": "Pentare Consulting Technology, Ribeirão Preto, Brazil (remote)",
+      "role": "Deployment and Project Consultant - Power Platform Developer",
+      "period": "Jan/2022 – Oct/2022 and Dec/2023 – Jan/2025",
+      "description": [
+        "Developed and deployed Microsoft Power Platform solutions using C# plugins (PRT), PCFs, Dataverse, Power Apps, Power Automate, Azure AI Foundry, REST APIs and custom connectors, extending CRM capabilities.",
+        "Delivered integrations across enterprise platforms, including Dataverse, Microsoft Dynamics 365 Finance and Operations, ServiceNow and IBM Maximo.",
+        "Led feasibility analysis, documentation and implementation of CRM improvements, including quotation processes, payment follow-ups, price lists and custom Power Apps solution packages."
+      ]
     },
     {
-      "company": "Nearsure / Tero",
-      "role": "Product and Technology Contributions",
-      "period": "Previous",
-      "description": "Contributed to projects where strategy, product thinking, and technical execution had to come together in fast-moving business contexts."
+      "company": "Tero by Nortal, Montevideo, Uruguay (remote) * Clients across U.S",
+      "role": "Senior Power Apps Developer",
+      "period": "Oct/2022 – Jul/2023",
+      "description": [
+        "Implemented Application Lifecycle Management (ALM) practices and Dataverse administration.",
+        "Led end-to-end delivery across Canvas Apps, Model-Driven Apps, Power Pages and Power Automate, covering requirements analysis, data modelling, integrations, testing and go-live for clients across the United States.",
+        "Extended Power Platform solutions through custom development and integrations, translating business requirements into scalable applications and supporting project governance from implementation through production deployment."
+      ]
     },
     {
-      "company": "Various clients across Brazil and abroad",
-      "role": "Technology Consultant",
-      "period": "200+ projects / global experience",
-      "description": "Supported clients in industries including logistics, healthcare, public services, manufacturing, retail, and enterprise operations."
+      "company": "IBM, São Paulo, Brazil (remote) * Worldwide",
+      "role": "Web Developer",
+      "period": "Apr 2021 - Feb 2022",
+      "description": [
+        "Built and deployed custom event pages for Think Summit 2021 across 14 international locales using HTML, CSS, JavaScript, React and IBM Carbon Components.",
+        "Developed and maintained low-code web pages (under ibm.com) using Drupal, Markdown and IBM Content Creator Tool.",
+        "Collaborated on end-to-end web development and deployment workflows using Git Workflows and GitHub, delivering localized, responsive event experiences across multiple international markets."
+      ]
+    },
+    {
+      "company": "S4R Technology, São Paulo, Brazil – Chinese client (remote)",
+      "role": "Developer",
+      "period": "Dec 2020 - Apr 2021",
+      "description": [
+        "Migrated InfoPath forms to Power Apps and automated approval workflows with Power Automate (Chinese client).",
+        "Trained key users on Power Apps/Power Automate and supported international teams with cloud infrastructure, SharePoint, Power BI and Microsoft 365 solutions.",
+        "Built and customized SharePoint solutions for document management, including version-controlled libraries, automated document approvals, email notifications and JSON-based list customizations."
+      ]
+    },
+    {
+      "company": "PM-Partners, São Paulo, Brazil (remote)",
+      "role": "Developer Analyst",
+      "period": "Oct 2019 - Dec 2020",
+      "description": [
+        "Automated supply chain processes and approval workflows using SharePoint, InfoPath and Nintex.",
+        "Delivered SharePoint solutions and administration support across multiple projects including custom forms, lists, views, intranet pages, business-data management and Office 365 migration support.",
+        "Identified opportunities to apply Power Platform and Azure AI to business processes contributing to innovation initiatives through Azure Cognitive Services research, technical documentation, requirements gathering, and key-user training."
+      ]
     }
   ],
   "education": [
     {
-      "title": "BSc in Computer Science",
-      "institution": "University of London",
-      "details": "Focused on software engineering, human-computer interaction, and the social impact of technology."
+      "title": "BSc. in Computer Science",
+      "institution": "Goldsmiths, University of London - In progress (part-time)",
+      "details": "Focused on software engineering, human-computer interaction and the social impact of technology."
     },
     {
-      "title": "Lifelong learning mindset",
-      "institution": "Self-directed learning + professional practice",
-      "details": "Exploring product design, AI, UX, and sustainable technology to shape more meaningful digital solutions."
+      "title": "Contemporary Topics in business strategy",
+      "institution": "Pearson College London (2023)",
+      "details": "An intensive course focused on strategic management, innovation, sustainability, emerging technologies and public-private partnerships."
     }
   ],
   "projects": [
     {
-      "name": "Personal innovation portfolio",
+      "name": "Entrepreneurship",
       "type": "Side project",
-      "description": "Exploring ideas that reach across technology, entrepreneurship, and digital experimentation, with a focus on practical value and creative problem-solving."
+      "description": "Participated in the founding and development of startups including involvement in the Microsoft Imagine Cup and Founders Hub, exploring innovative ideas and technology-driven business solutions."
     },
     {
-      "name": "Microsoft platform modernization",
-      "type": "Consulting",
-      "description": "Building workflow and application solutions that reduce friction, improve visibility, and simplify operational complexity for business teams."
+      "name": "Microsoft Reactor",
+      "type": "Side project",
+      "description": "Continuously develop knowledge of emerging Microsoft technologies through Microsoft Reactor programs, workshops and technical learning initiatives."
     },
     {
-      "name": "Process-driven app development",
-      "type": "Applied systems work",
-      "description": "Designing digital tools that support better business decisions, stronger user adoption, and measurable operational transformation."
+      "name": "Creative Computing",
+      "type": "Side project",
+      "description": "Explore the intersection of technology, creativity and responsible computing through university projects including gamification, interactive music applications and digital art developed with the p5.js library."
     }
   ],
   "skills": [
@@ -99,16 +138,16 @@
   ],
   "contact": {
     "label": "Let’s build something useful and meaningful.",
-    "cta": "Reach out to discuss technology, consulting, consulting strategy, or collaboration opportunities."
+    "cta": "Reach out to discuss technology, consulting, strategy or collaboration opportunities."
   },
   "socials": [
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/alexsandramenesesdasilva/"
+      "url": "https://www.linkedin.com/in/alexsandra-m-silva/"
     },
     {
       "name": "GitHub",
-      "url": "https://github.com/yourusername"
+      "url": "https://github.com/Alexsandra-m-silva"
     },
     {
       "name": "Portfolio",
