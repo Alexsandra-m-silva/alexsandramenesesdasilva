@@ -1,0 +1,53 @@
+const sketch = (p) => {
+  let particles = [];
+  let zoff = 0;
+
+  p.setup = () => {
+    const canvas = p.createCanvas(window.innerWidth, window.innerHeight);
+    canvas.parent('p5-container');
+    p.noStroke();
+
+    for (let i = 0; i < 180; i++) {
+      particles.push({
+        x: p.random(p.width),
+        y: p.random(p.height),
+        r: p.random(1.4, 4.2),
+        vx: p.random(-0.7, 0.7),
+        vy: p.random(-0.7, 0.7)
+      });
+    }
+  };
+
+  p.windowResized = () => {
+    p.resizeCanvas(window.innerWidth, window.innerHeight);
+  };
+
+  p.draw = () => {
+    p.clear();
+    p.background(255, 255, 255, 26);
+
+    for (let i = 0; i < particles.length; i++) {
+      let pnt = particles[i];
+      pnt.x += pnt.vx;
+      pnt.y += pnt.vy;
+
+      if (pnt.x < 0 || pnt.x > p.width) pnt.vx *= -1;
+      if (pnt.y < 0 || pnt.y > p.height) pnt.vy *= -1;
+
+      const glow = 90 + Math.sin(pnt.x * 0.02 + zoff) * 50;
+      const palette = [
+        [124, 58, 237],
+        [249, 115, 22],
+        [250, 204, 21],
+        [59, 130, 246]
+      ];
+      const color = palette[i % palette.length];
+      p.fill(color[0], color[1], color[2], glow);
+      p.circle(pnt.x, pnt.y, pnt.r * 2);
+    }
+
+    zoff += 0.02;
+  };
+};
+
+new p5(sketch);
